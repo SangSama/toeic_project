@@ -1,0 +1,19 @@
+{
+  "finalProjectApp": {
+    "userVocabularyList": {
+      "home": {
+        "title": "VOCABULARY",
+        "notFound": "No Vocabularies found",
+        "subtitle": {
+          "sub01": "Từ vựng là nền tảng cho các kỹ năng phát triển.",
+          "sub02": "Vốn từ phong phú, dồi dào sẽ hỗ trợ bạn rất nhiều trong việc phát triển và hoàn thiện các kỹ năng khác một cách hiệu quả hơn.",
+          "sub03": "Có được vốn từ đa dạng, bạn có thể dễ dàng hiểu được nội dung truyền đạt ngay cả khi ngữ pháp của bạn không quá vững. Và khi hiểu nhanh, hiểu đúng, bạn sẽ có thể phản xạ trả lời lại nhanh chóng. Quá trình nghe, hiểu và nói từ đó cũng sẽ ngày càng thành thạo, trôi chảy.",
+          "sub04": "Ngoài các vấn đề liên quan đến các kỹ năng nghe, nói hay đọc thì từ vựng tiếng Anh còn giúp phát triển não bộ ở khả năng viết nhanh chóng, đúng ngữ cảnh và không sai chính tả. Từ đó, bạn hoàn toàn có thể tự tin viết một lá thư hay trình bày một vấn đề nào đó bằng tiếng Anh không phải lo lắng điều gì."
+        }
+      },
+      "notice": {
+        "title": "Mục này vẫn còn trong quá trình cập nhật! Cảm ơn ^^"
+      }
+    }
+  }
+}

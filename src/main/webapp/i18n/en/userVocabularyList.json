@@ -1,0 +1,19 @@
+{
+  "finalProjectApp": {
+    "userVocabularyList": {
+      "home": {
+        "title": "VOCABULARY",
+        "notFound": "No Vocabularies found",
+        "subtitle": {
+          "sub01": "Vocabulary is the foundation for development skills.",
+          "sub02": "Rich, abundant capital will support you a lot in developing and perfecting other skills more effectively.",
+          "sub03": "Get capital from variety, you can easily understand the communication content even if your grammar is not too firm. And when I understand fast, understand it right, you will be able to reflect the reply quickly. The process of listening, understanding and saying there will be more and more fluent, fluent.",
+          "sub04": "In addition to issues related to listening, speaking or reading skills, English vocabulary also helps develop the brain in the ability to write quickly, in the right context and not missing. From there, you can completely confidently write a letter or present a problem in English without worrying about anything."
+        }
+      },
+      "notice": {
+        "title": "It is still in the update process! Thanks"
+      }
+    }
+  }
+}

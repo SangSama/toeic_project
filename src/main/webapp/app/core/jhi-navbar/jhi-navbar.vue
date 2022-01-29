@@ -26,28 +26,28 @@
           </span>
         </b-nav-item>
         <!--Gioi thieu-->
-        <b-nav-item to="/user/about" active-class="active">
+        <b-nav-item to="/about" active-class="active">
           <span>
             <font-awesome-icon icon="address-card" />
             <span v-text="$t('global.menu.about')">About</span>
           </span>
         </b-nav-item>
         <!--Tu vung-->
-        <b-nav-item to="/user/vocabulary" exact>
+        <b-nav-item to="/users/vocabulary" exact>
           <span>
             <font-awesome-icon icon="star" />
             <span v-text="$t('global.menu.vocabulary')">Vocabulary</span>
           </span>
         </b-nav-item>
         <!--Ngu phap-->
-        <b-nav-item to="/user/grammar" exact>
+        <b-nav-item to="/users/grammar" exact>
           <span>
             <font-awesome-icon icon="star-of-david" />
             <span v-text="$t('global.menu.grammar')">Grammar</span>
           </span>
         </b-nav-item>
         <!--Toeic-->
-        <b-nav-item to="/user/toeic" exact>
+        <b-nav-item to="/users/toeic" exact>
           <span>
             <font-awesome-icon icon="hourglass-start" />
             <span v-text="$t('global.menu.toeic')">Toeic</span>
@@ -102,14 +102,14 @@
           </b-dropdown-item>
         </b-nav-item-dropdown>
         <!--Giai dap-->
-        <b-nav-item to="/user/qna" exact>
+        <b-nav-item to="/qna" exact>
           <span>
             <font-awesome-icon icon="question-circle" />
             <span v-text="$t('global.menu.qna')">Q&A</span>
           </span>
         </b-nav-item>
         <!--Lien he-->
-        <b-nav-item to="/user/contact" exact>
+        <b-nav-item to="/contact" exact>
           <span>
             <font-awesome-icon icon="info-circle" />
             <span v-text="$t('global.menu.contact')">Contact</span>
