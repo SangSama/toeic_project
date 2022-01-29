@@ -1,0 +1,31 @@
+{
+  "finalProjectApp": {
+    "toeicUser": {
+      "home": {
+        "title": "Toeic Users",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Thêm mới một Toeic User",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Toeic User",
+        "notFound": "No Toeic Users found"
+      },
+      "created": "Một Toeic User mới được tạo với định danh {{ param }}",
+      "updated": "Một Toeic User cập nhật với định danh {{ param }}",
+      "deleted": "Một Toeic User đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Toeic User {{ id }}?"
+      },
+      "detail": {
+        "title": "Toeic User"
+      },
+      "id": "ID",
+      "userId": "User Id",
+      "score": "Score",
+      "reading": "Reading",
+      "listening": "Listening",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "detailsToeicUser": "Details Toeic User",
+      "toeics": "Toeics"
+    }
+  }
+}

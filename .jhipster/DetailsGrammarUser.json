@@ -1,0 +1,43 @@
+{
+  "applications": "*",
+  "changelogDate": "20220129091502",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "details_grammar_user",
+  "fields": [
+    {
+      "fieldName": "grammarQuestionId",
+      "fieldType": "Long",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "Long",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "createdAt",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "updatedAt",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "DetailsGrammarUser",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "grammarUser",
+      "otherEntityRelationshipName": "detailsGrammarUser",
+      "relationshipName": "grammarUser",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

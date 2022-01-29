@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd">
+    <!--
+        Added the constraints for entity QuestionPart.
+    -->
+    <changeSet id="20220129091505-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="answer_question_id"
+                                 baseTableName="question_part"
+                                 constraintName="fk_question_part__answer_question_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="answer_question"/>
+
+        <addForeignKeyConstraint baseColumnNames="parts_id"
+                                 baseTableName="question_part"
+                                 constraintName="fk_question_part__parts_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="parts"/>
+
+        <addForeignKeyConstraint baseColumnNames="extend_question_id"
+                                 baseTableName="question_part"
+                                 constraintName="fk_question_part__extend_question_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="extend_question"/>
+    </changeSet>
+</databaseChangeLog>

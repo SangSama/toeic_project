@@ -1,0 +1,63 @@
+{
+  "applications": "*",
+  "changelogDate": "20220129091508",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "vocabulary_topic",
+  "fields": [
+    {
+      "fieldName": "nameTopic",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "maxlength"],
+      "fieldValidateRulesMaxlength": "100"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "view",
+      "fieldType": "Long",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "test",
+      "fieldType": "Long",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "level",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "createdAt",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "updatedAt",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "VocabularyTopic",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "vocabularyUser",
+      "otherEntityRelationshipName": "vocabularyTopic",
+      "relationshipName": "vocabularyUser",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "vocabulary",
+      "otherEntityRelationshipName": "vocabularyTopic",
+      "relationshipName": "vocabulary",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "serviceImpl"
+}

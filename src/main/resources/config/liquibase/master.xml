@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd">
+
+    <property name="now" value="now()" dbms="h2"/>
+    <property name="now" value="now()" dbms="mysql, mariadb"/>
+    <property name="floatType" value="float4" dbms="postgresql, h2"/>
+    <property name="floatType" value="float" dbms="mysql, oracle, mssql, mariadb"/>
+    <property name="clobType" value="clob" dbms="h2"/>
+    <property name="clobType" value="clob" dbms="mysql, oracle, mssql, mariadb, postgresql"/>
+    <property name="uuidType" value="varchar(36)" dbms="h2, mysql, mariadb"/>
+    <property name="datetimeType" value="datetime(6)" dbms="mysql, mariadb"/>
+    <property name="datetimeType" value="datetime" dbms="oracle, mssql, postgresql, h2"/>
+
+    <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220129091456_added_entity_AnswerQuestion.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220129091457_added_entity_Parts.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220129091458_added_entity_ToeicUser.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220129091459_added_entity_DetailsVocabularyUser.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220129091500_added_entity_ExtendQuestion.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220129091501_added_entity_GrammarQuestion.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220129091502_added_entity_DetailsGrammarUser.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220129091503_added_entity_VocabularyUser.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220129091504_added_entity_GrammarUser.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220129091505_added_entity_QuestionPart.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220129091506_added_entity_Vocabulary.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220129091507_added_entity_GrammarTopic.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220129091508_added_entity_VocabularyTopic.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220129091509_added_entity_QnA.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220129091510_added_entity_DetailsToeicUser.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220129091511_added_entity_GrammarAnswer.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220129091512_added_entity_Toeics.xml" relativeToChangelogFile="false"/>
+    <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20220129091457_added_entity_constraints_Parts.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220129091458_added_entity_constraints_ToeicUser.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220129091459_added_entity_constraints_DetailsVocabularyUser.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220129091501_added_entity_constraints_GrammarQuestion.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220129091502_added_entity_constraints_DetailsGrammarUser.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220129091503_added_entity_constraints_VocabularyUser.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220129091504_added_entity_constraints_GrammarUser.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220129091505_added_entity_constraints_QuestionPart.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220129091506_added_entity_constraints_Vocabulary.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220129091510_added_entity_constraints_DetailsToeicUser.xml" relativeToChangelogFile="false"/>
+    <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
+    <!-- jhipster-needle-liquibase-add-incremental-changelog - JHipster will add incremental liquibase changelogs here -->
+</databaseChangeLog>

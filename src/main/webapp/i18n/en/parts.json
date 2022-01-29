@@ -1,0 +1,32 @@
+{
+  "finalProjectApp": {
+    "parts": {
+      "home": {
+        "title": "Parts",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Parts",
+        "createOrEditLabel": "Create or edit a Parts",
+        "notFound": "No Parts found"
+      },
+      "created": "A new Parts is created with identifier {{ param }}",
+      "updated": "A Parts is updated with identifier {{ param }}",
+      "deleted": "A Parts is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Parts {{ id }}?"
+      },
+      "detail": {
+        "title": "Parts"
+      },
+      "id": "ID",
+      "part": "Part",
+      "description": "Description",
+      "example": "Example",
+      "fileLC": "File LC",
+      "view": "View",
+      "test": "Test",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "toeics": "Toeics"
+    }
+  }
+}

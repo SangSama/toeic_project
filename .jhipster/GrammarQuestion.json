@@ -1,0 +1,50 @@
+{
+  "applications": "*",
+  "changelogDate": "20220129091501",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "grammar_question",
+  "fields": [
+    {
+      "fieldName": "question",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "correct",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "createdAt",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "updatedAt",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "GrammarQuestion",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "grammarAnswer",
+      "otherEntityRelationshipName": "grammarQuestion",
+      "ownerSide": true,
+      "relationshipName": "grammarAnswer",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "grammarTopic",
+      "otherEntityRelationshipName": "grammarQuestion",
+      "relationshipName": "grammarTopic",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

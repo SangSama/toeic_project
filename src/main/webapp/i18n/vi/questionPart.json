@@ -1,0 +1,30 @@
+{
+  "finalProjectApp": {
+    "questionPart": {
+      "home": {
+        "title": "Question Parts",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Thêm mới một Question Part",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Question Part",
+        "notFound": "No Question Parts found"
+      },
+      "created": "Một Question Part mới được tạo với định danh {{ param }}",
+      "updated": "Một Question Part cập nhật với định danh {{ param }}",
+      "deleted": "Một Question Part đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Question Part {{ id }}?"
+      },
+      "detail": {
+        "title": "Question Part"
+      },
+      "id": "ID",
+      "question": "Question",
+      "correct": "Correct",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "answerQuestion": "Answer Question",
+      "parts": "Parts",
+      "extendQuestion": "Extend Question"
+    }
+  }
+}

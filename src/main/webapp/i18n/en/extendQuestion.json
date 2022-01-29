@@ -1,0 +1,27 @@
+{
+  "finalProjectApp": {
+    "extendQuestion": {
+      "home": {
+        "title": "Extend Questions",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Extend Question",
+        "createOrEditLabel": "Create or edit a Extend Question",
+        "notFound": "No Extend Questions found"
+      },
+      "created": "A new Extend Question is created with identifier {{ param }}",
+      "updated": "A Extend Question is updated with identifier {{ param }}",
+      "deleted": "A Extend Question is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Extend Question {{ id }}?"
+      },
+      "detail": {
+        "title": "Extend Question"
+      },
+      "id": "ID",
+      "paragraph": "Paragraph",
+      "image": "Image",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At"
+    }
+  }
+}

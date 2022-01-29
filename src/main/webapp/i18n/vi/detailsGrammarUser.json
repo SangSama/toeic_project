@@ -1,0 +1,28 @@
+{
+  "finalProjectApp": {
+    "detailsGrammarUser": {
+      "home": {
+        "title": "Details Grammar Users",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Thêm mới một Details Grammar User",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Details Grammar User",
+        "notFound": "No Details Grammar Users found"
+      },
+      "created": "Một Details Grammar User mới được tạo với định danh {{ param }}",
+      "updated": "Một Details Grammar User cập nhật với định danh {{ param }}",
+      "deleted": "Một Details Grammar User đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Details Grammar User {{ id }}?"
+      },
+      "detail": {
+        "title": "Details Grammar User"
+      },
+      "id": "ID",
+      "grammarQuestionId": "Grammar Question Id",
+      "status": "Status",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "grammarUser": "Grammar User"
+    }
+  }
+}

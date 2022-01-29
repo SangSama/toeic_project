@@ -1,0 +1,33 @@
+{
+  "finalProjectApp": {
+    "grammarTopic": {
+      "home": {
+        "title": "Grammar Topics",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Grammar Topic",
+        "createOrEditLabel": "Create or edit a Grammar Topic",
+        "notFound": "No Grammar Topics found"
+      },
+      "created": "A new Grammar Topic is created with identifier {{ param }}",
+      "updated": "A Grammar Topic is updated with identifier {{ param }}",
+      "deleted": "A Grammar Topic is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Grammar Topic {{ id }}?"
+      },
+      "detail": {
+        "title": "Grammar Topic"
+      },
+      "id": "ID",
+      "nameTopic": "Name Topic",
+      "description": "Description",
+      "view": "View",
+      "test": "Test",
+      "level": "Level",
+      "filePractice": "File Practice",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "grammarUser": "Grammar User",
+      "grammarQuestion": "Grammar Question"
+    }
+  }
+}

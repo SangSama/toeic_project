@@ -1,0 +1,28 @@
+{
+  "finalProjectApp": {
+    "detailsGrammarUser": {
+      "home": {
+        "title": "Details Grammar Users",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Details Grammar User",
+        "createOrEditLabel": "Create or edit a Details Grammar User",
+        "notFound": "No Details Grammar Users found"
+      },
+      "created": "A new Details Grammar User is created with identifier {{ param }}",
+      "updated": "A Details Grammar User is updated with identifier {{ param }}",
+      "deleted": "A Details Grammar User is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Details Grammar User {{ id }}?"
+      },
+      "detail": {
+        "title": "Details Grammar User"
+      },
+      "id": "ID",
+      "grammarQuestionId": "Grammar Question Id",
+      "status": "Status",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "grammarUser": "Grammar User"
+    }
+  }
+}

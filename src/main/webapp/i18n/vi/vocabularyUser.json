@@ -1,0 +1,29 @@
+{
+  "finalProjectApp": {
+    "vocabularyUser": {
+      "home": {
+        "title": "Vocabulary Users",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Thêm mới một Vocabulary User",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Vocabulary User",
+        "notFound": "No Vocabulary Users found"
+      },
+      "created": "Một Vocabulary User mới được tạo với định danh {{ param }}",
+      "updated": "Một Vocabulary User cập nhật với định danh {{ param }}",
+      "deleted": "Một Vocabulary User đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Vocabulary User {{ id }}?"
+      },
+      "detail": {
+        "title": "Vocabulary User"
+      },
+      "id": "ID",
+      "userId": "User Id",
+      "score": "Score",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "detailsVocabularyUser": "Details Vocabulary User",
+      "vocabularyTopic": "Vocabulary Topic"
+    }
+  }
+}

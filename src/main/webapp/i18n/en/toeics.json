@@ -1,0 +1,33 @@
+{
+  "finalProjectApp": {
+    "toeics": {
+      "home": {
+        "title": "Toeics",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Toeics",
+        "createOrEditLabel": "Create or edit a Toeics",
+        "notFound": "No Toeics found"
+      },
+      "created": "A new Toeics is created with identifier {{ param }}",
+      "updated": "A Toeics is updated with identifier {{ param }}",
+      "deleted": "A Toeics is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Toeics {{ id }}?"
+      },
+      "detail": {
+        "title": "Toeics"
+      },
+      "id": "ID",
+      "nameToeic": "Name Toeic",
+      "number": "Number",
+      "description": "Description",
+      "view": "View",
+      "test": "Test",
+      "linkDetail": "Link Detail",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "toeicUser": "Toeic User",
+      "parts": "Parts"
+    }
+  }
+}

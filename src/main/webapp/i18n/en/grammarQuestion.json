@@ -1,0 +1,29 @@
+{
+  "finalProjectApp": {
+    "grammarQuestion": {
+      "home": {
+        "title": "Grammar Questions",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Grammar Question",
+        "createOrEditLabel": "Create or edit a Grammar Question",
+        "notFound": "No Grammar Questions found"
+      },
+      "created": "A new Grammar Question is created with identifier {{ param }}",
+      "updated": "A Grammar Question is updated with identifier {{ param }}",
+      "deleted": "A Grammar Question is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Grammar Question {{ id }}?"
+      },
+      "detail": {
+        "title": "Grammar Question"
+      },
+      "id": "ID",
+      "question": "Question",
+      "correct": "Correct",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "grammarAnswer": "Grammar Answer",
+      "grammarTopic": "Grammar Topic"
+    }
+  }
+}

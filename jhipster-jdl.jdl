@@ -1,0 +1,214 @@
+// VOCABULARY
+// bang phu
+entity VocabularyUser {
+	userId Long required,
+    score Long,
+	createdAt LocalDate required,
+    updatedAt LocalDate required
+}
+
+entity DetailsVocabularyUser {
+	vocabularyId Long required,
+    status Long required,
+    createdAt LocalDate required,
+    updatedAt LocalDate required
+}
+
+// bang chu de tu vung
+entity VocabularyTopic {
+	nameTopic String required maxlength(100),
+	description String,
+	view Long required,
+    test Long required,
+    level Long,
+	createdAt LocalDate required,
+    updatedAt LocalDate required
+}
+
+// bang tu vung
+entity Vocabulary {
+	word String required,
+    mean String required,
+    createdAt LocalDate required,
+    updatedAt LocalDate required
+}
+
+// GRAMMAR
+// bang phu
+entity GrammarUser {
+	userId Long required,
+    score Long,
+	createdAt LocalDate required,
+    updatedAt LocalDate required
+}
+
+entity DetailsGrammarUser {
+	grammarQuestionId Long required,
+    status Long required,
+    createdAt LocalDate required,
+    updatedAt LocalDate required
+}
+
+// bang chu de ngu phap
+entity GrammarTopic {
+	nameTopic String required maxlength(100),
+	description String,
+	view Long required,
+    test Long required,
+    level Long,
+    filePractice String,
+	createdAt LocalDate required,
+    updatedAt LocalDate required
+}
+
+// cau hoi - tra loi dung
+entity GrammarQuestion {
+	question String required,
+    correct String required,
+    createdAt LocalDate required,
+    updatedAt LocalDate required
+}
+
+// dap an
+entity GrammarAnswer {
+	answerA String required,
+    answerB String required,
+    answerC String required,
+    answerD String required,
+    createdAt LocalDate required,
+    updatedAt LocalDate required
+}
+
+// TOEIC
+// bang phu
+entity ToeicUser {
+	userId Long required,
+	score Long,
+    reading String required,
+    listening String required,
+    createdAt LocalDate required,
+    updatedAt LocalDate required
+}
+
+entity DetailsToeicUser {
+	toeicId Long required,
+	partId Long required,
+    questionId Long required,
+	status Long required,
+    createdAt LocalDate required,
+    updatedAt LocalDate required
+}
+
+// de toeic
+entity Toeics {
+	nameToeic String required unique maxlength(50),
+    number Integer required,
+    description String,
+    view Long required,
+    test Long required,
+    linkDetail String,
+    createdAt LocalDate required,
+    updatedAt LocalDate required
+}
+
+// part
+entity Parts {
+	part Integer required,
+    description String required,
+    example String required,
+    fileLC String required,
+    view Long required,
+    test Long required,
+    createdAt LocalDate required,
+    updatedAt LocalDate required
+}
+
+// cau hoi
+entity QuestionPart {
+	question String required,
+    correct String required,
+    createdAt LocalDate required,
+    updatedAt LocalDate required
+}
+
+// van ban, hinh anh di kem cau hoi
+entity ExtendQuestion {
+	paragraph String,
+    image ImageBlob,
+    createdAt LocalDate required,
+    updatedAt LocalDate required
+}
+
+// dap an
+entity AnswerQuestion {
+	answerA String required,
+    answerB String required,
+    answerC String required,
+    answerD String required,
+    createdAt LocalDate required,
+    updatedAt LocalDate required
+}
+
+// QnA
+entity QnA {
+	userId Long required,
+	email String required maxlength(50),
+    status Long required,
+    createdAt LocalDate required,
+    updatedAt LocalDate required
+}
+
+// ------------------------------------------------------
+// RELATIONSHIP
+relationship OneToMany {
+	VocabularyTopic to VocabularyUser{vocabularyTopic}
+    VocabularyTopic to Vocabulary{vocabularyTopic}
+}
+
+relationship OneToMany {
+	VocabularyUser{detailsVocabularyUser} to DetailsVocabularyUser
+}
+
+relationship OneToMany {
+	GrammarTopic to GrammarUser{grammarTopic}
+    GrammarTopic to GrammarQuestion{grammarTopic}
+}
+
+relationship OneToMany {
+	GrammarUser{detailsGrammarUser} to DetailsGrammarUser
+}
+
+relationship OneToOne {
+	GrammarQuestion{grammarAnswer} to GrammarAnswer
+}
+
+relationship OneToMany {
+	Toeics to ToeicUser{toeics}
+    Toeics to Parts{toeics}
+}
+
+relationship OneToMany {
+	ToeicUser{detailsToeicUser} to DetailsToeicUser
+}
+
+relationship ManyToOne {
+	QuestionPart{parts} to Parts
+    QuestionPart{extendQuestion} to ExtendQuestion
+}
+
+relationship OneToOne {
+	QuestionPart{answerQuestion} to AnswerQuestion
+}
+
+// ---------------------------------------------------
+// Set pagination options
+paginate * with pagination except QnA
+paginate QnA with infinite-scroll
+
+// Use Data Transfer Objects (DTO)
+dto * with mapstruct
+// dto * with mapstruct
+
+// Set service options to all except few
+service * with serviceImpl
+

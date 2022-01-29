@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd">
+    <!--
+        Added the constraints for entity GrammarUser.
+    -->
+    <changeSet id="20220129091504-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="grammar_topic_id"
+                                 baseTableName="grammar_user"
+                                 constraintName="fk_grammar_user__grammar_topic_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="grammar_topic"/>
+    </changeSet>
+</databaseChangeLog>

@@ -1,0 +1,32 @@
+{
+  "finalProjectApp": {
+    "parts": {
+      "home": {
+        "title": "Parts",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Thêm mới một Parts",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Parts",
+        "notFound": "No Parts found"
+      },
+      "created": "Một Parts mới được tạo với định danh {{ param }}",
+      "updated": "Một Parts cập nhật với định danh {{ param }}",
+      "deleted": "Một Parts đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Parts {{ id }}?"
+      },
+      "detail": {
+        "title": "Parts"
+      },
+      "id": "ID",
+      "part": "Part",
+      "description": "Description",
+      "example": "Example",
+      "fileLC": "File LC",
+      "view": "View",
+      "test": "Test",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "toeics": "Toeics"
+    }
+  }
+}

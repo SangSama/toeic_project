@@ -1,0 +1,33 @@
+{
+  "finalProjectApp": {
+    "grammarTopic": {
+      "home": {
+        "title": "Grammar Topics",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Thêm mới một Grammar Topic",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Grammar Topic",
+        "notFound": "No Grammar Topics found"
+      },
+      "created": "Một Grammar Topic mới được tạo với định danh {{ param }}",
+      "updated": "Một Grammar Topic cập nhật với định danh {{ param }}",
+      "deleted": "Một Grammar Topic đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Grammar Topic {{ id }}?"
+      },
+      "detail": {
+        "title": "Grammar Topic"
+      },
+      "id": "ID",
+      "nameTopic": "Name Topic",
+      "description": "Description",
+      "view": "View",
+      "test": "Test",
+      "level": "Level",
+      "filePractice": "File Practice",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "grammarUser": "Grammar User",
+      "grammarQuestion": "Grammar Question"
+    }
+  }
+}

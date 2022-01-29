@@ -1,0 +1,48 @@
+{
+  "applications": "*",
+  "changelogDate": "20220129091504",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "grammar_user",
+  "fields": [
+    {
+      "fieldName": "userId",
+      "fieldType": "Long",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "score",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "createdAt",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "updatedAt",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "GrammarUser",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "detailsGrammarUser",
+      "otherEntityRelationshipName": "grammarUser",
+      "relationshipName": "detailsGrammarUser",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "grammarTopic",
+      "otherEntityRelationshipName": "grammarUser",
+      "relationshipName": "grammarTopic",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

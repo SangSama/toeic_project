@@ -1,0 +1,58 @@
+{
+  "applications": "*",
+  "changelogDate": "20220129091458",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "toeic_user",
+  "fields": [
+    {
+      "fieldName": "userId",
+      "fieldType": "Long",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "score",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "reading",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "listening",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "createdAt",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "updatedAt",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "ToeicUser",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "detailsToeicUser",
+      "otherEntityRelationshipName": "toeicUser",
+      "relationshipName": "detailsToeicUser",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "toeics",
+      "otherEntityRelationshipName": "toeicUser",
+      "relationshipName": "toeics",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

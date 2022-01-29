@@ -1,0 +1,29 @@
+{
+  "finalProjectApp": {
+    "answerQuestion": {
+      "home": {
+        "title": "Answer Questions",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Answer Question",
+        "createOrEditLabel": "Create or edit a Answer Question",
+        "notFound": "No Answer Questions found"
+      },
+      "created": "A new Answer Question is created with identifier {{ param }}",
+      "updated": "A Answer Question is updated with identifier {{ param }}",
+      "deleted": "A Answer Question is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Answer Question {{ id }}?"
+      },
+      "detail": {
+        "title": "Answer Question"
+      },
+      "id": "ID",
+      "answerA": "Answer A",
+      "answerB": "Answer B",
+      "answerC": "Answer C",
+      "answerD": "Answer D",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At"
+    }
+  }
+}

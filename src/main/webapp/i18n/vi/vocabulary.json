@@ -1,0 +1,28 @@
+{
+  "finalProjectApp": {
+    "vocabulary": {
+      "home": {
+        "title": "Vocabularies",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Thêm mới một Vocabulary",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Vocabulary",
+        "notFound": "No Vocabularies found"
+      },
+      "created": "Một Vocabulary mới được tạo với định danh {{ param }}",
+      "updated": "Một Vocabulary cập nhật với định danh {{ param }}",
+      "deleted": "Một Vocabulary đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Vocabulary {{ id }}?"
+      },
+      "detail": {
+        "title": "Vocabulary"
+      },
+      "id": "ID",
+      "word": "Word",
+      "mean": "Mean",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "vocabularyTopic": "Vocabulary Topic"
+    }
+  }
+}

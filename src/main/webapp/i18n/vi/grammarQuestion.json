@@ -1,0 +1,29 @@
+{
+  "finalProjectApp": {
+    "grammarQuestion": {
+      "home": {
+        "title": "Grammar Questions",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Thêm mới một Grammar Question",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Grammar Question",
+        "notFound": "No Grammar Questions found"
+      },
+      "created": "Một Grammar Question mới được tạo với định danh {{ param }}",
+      "updated": "Một Grammar Question cập nhật với định danh {{ param }}",
+      "deleted": "Một Grammar Question đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Grammar Question {{ id }}?"
+      },
+      "detail": {
+        "title": "Grammar Question"
+      },
+      "id": "ID",
+      "question": "Question",
+      "correct": "Correct",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "grammarAnswer": "Grammar Answer",
+      "grammarTopic": "Grammar Topic"
+    }
+  }
+}

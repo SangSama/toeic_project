@@ -1,0 +1,28 @@
+{
+  "finalProjectApp": {
+    "detailsVocabularyUser": {
+      "home": {
+        "title": "Details Vocabulary Users",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Details Vocabulary User",
+        "createOrEditLabel": "Create or edit a Details Vocabulary User",
+        "notFound": "No Details Vocabulary Users found"
+      },
+      "created": "A new Details Vocabulary User is created with identifier {{ param }}",
+      "updated": "A Details Vocabulary User is updated with identifier {{ param }}",
+      "deleted": "A Details Vocabulary User is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Details Vocabulary User {{ id }}?"
+      },
+      "detail": {
+        "title": "Details Vocabulary User"
+      },
+      "id": "ID",
+      "vocabularyId": "Vocabulary Id",
+      "status": "Status",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "vocabularyUser": "Vocabulary User"
+    }
+  }
+}

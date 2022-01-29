@@ -1,0 +1,43 @@
+{
+  "applications": "*",
+  "changelogDate": "20220129091506",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "vocabulary",
+  "fields": [
+    {
+      "fieldName": "word",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "mean",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "createdAt",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "updatedAt",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Vocabulary",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "vocabularyTopic",
+      "otherEntityRelationshipName": "vocabulary",
+      "relationshipName": "vocabularyTopic",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

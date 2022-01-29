@@ -1,0 +1,67 @@
+{
+  "applications": "*",
+  "changelogDate": "20220129091507",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "grammar_topic",
+  "fields": [
+    {
+      "fieldName": "nameTopic",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "maxlength"],
+      "fieldValidateRulesMaxlength": "100"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "view",
+      "fieldType": "Long",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "test",
+      "fieldType": "Long",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "level",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "filePractice",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdAt",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "updatedAt",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "GrammarTopic",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "grammarUser",
+      "otherEntityRelationshipName": "grammarTopic",
+      "relationshipName": "grammarUser",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "grammarQuestion",
+      "otherEntityRelationshipName": "grammarTopic",
+      "relationshipName": "grammarQuestion",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "serviceImpl"
+}

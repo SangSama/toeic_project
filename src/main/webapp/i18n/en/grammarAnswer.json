@@ -1,0 +1,29 @@
+{
+  "finalProjectApp": {
+    "grammarAnswer": {
+      "home": {
+        "title": "Grammar Answers",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Grammar Answer",
+        "createOrEditLabel": "Create or edit a Grammar Answer",
+        "notFound": "No Grammar Answers found"
+      },
+      "created": "A new Grammar Answer is created with identifier {{ param }}",
+      "updated": "A Grammar Answer is updated with identifier {{ param }}",
+      "deleted": "A Grammar Answer is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Grammar Answer {{ id }}?"
+      },
+      "detail": {
+        "title": "Grammar Answer"
+      },
+      "id": "ID",
+      "answerA": "Answer A",
+      "answerB": "Answer B",
+      "answerC": "Answer C",
+      "answerD": "Answer D",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At"
+    }
+  }
+}

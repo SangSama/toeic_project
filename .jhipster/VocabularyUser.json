@@ -1,0 +1,48 @@
+{
+  "applications": "*",
+  "changelogDate": "20220129091503",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "vocabulary_user",
+  "fields": [
+    {
+      "fieldName": "userId",
+      "fieldType": "Long",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "score",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "createdAt",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "updatedAt",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "VocabularyUser",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "detailsVocabularyUser",
+      "otherEntityRelationshipName": "vocabularyUser",
+      "relationshipName": "detailsVocabularyUser",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "vocabularyTopic",
+      "otherEntityRelationshipName": "vocabularyUser",
+      "relationshipName": "vocabularyTopic",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

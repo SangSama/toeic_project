@@ -1,0 +1,29 @@
+{
+  "finalProjectApp": {
+    "grammarUser": {
+      "home": {
+        "title": "Grammar Users",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Grammar User",
+        "createOrEditLabel": "Create or edit a Grammar User",
+        "notFound": "No Grammar Users found"
+      },
+      "created": "A new Grammar User is created with identifier {{ param }}",
+      "updated": "A Grammar User is updated with identifier {{ param }}",
+      "deleted": "A Grammar User is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Grammar User {{ id }}?"
+      },
+      "detail": {
+        "title": "Grammar User"
+      },
+      "id": "ID",
+      "userId": "User Id",
+      "score": "Score",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "detailsGrammarUser": "Details Grammar User",
+      "grammarTopic": "Grammar Topic"
+    }
+  }
+}

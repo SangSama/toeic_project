@@ -1,0 +1,30 @@
+{
+  "finalProjectApp": {
+    "questionPart": {
+      "home": {
+        "title": "Question Parts",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Question Part",
+        "createOrEditLabel": "Create or edit a Question Part",
+        "notFound": "No Question Parts found"
+      },
+      "created": "A new Question Part is created with identifier {{ param }}",
+      "updated": "A Question Part is updated with identifier {{ param }}",
+      "deleted": "A Question Part is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Question Part {{ id }}?"
+      },
+      "detail": {
+        "title": "Question Part"
+      },
+      "id": "ID",
+      "question": "Question",
+      "correct": "Correct",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "answerQuestion": "Answer Question",
+      "parts": "Parts",
+      "extendQuestion": "Extend Question"
+    }
+  }
+}

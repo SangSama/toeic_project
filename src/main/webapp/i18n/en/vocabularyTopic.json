@@ -1,0 +1,32 @@
+{
+  "finalProjectApp": {
+    "vocabularyTopic": {
+      "home": {
+        "title": "Vocabulary Topics",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Vocabulary Topic",
+        "createOrEditLabel": "Create or edit a Vocabulary Topic",
+        "notFound": "No Vocabulary Topics found"
+      },
+      "created": "A new Vocabulary Topic is created with identifier {{ param }}",
+      "updated": "A Vocabulary Topic is updated with identifier {{ param }}",
+      "deleted": "A Vocabulary Topic is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Vocabulary Topic {{ id }}?"
+      },
+      "detail": {
+        "title": "Vocabulary Topic"
+      },
+      "id": "ID",
+      "nameTopic": "Name Topic",
+      "description": "Description",
+      "view": "View",
+      "test": "Test",
+      "level": "Level",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "vocabularyUser": "Vocabulary User",
+      "vocabulary": "Vocabulary"
+    }
+  }
+}

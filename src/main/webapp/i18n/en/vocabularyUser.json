@@ -1,0 +1,29 @@
+{
+  "finalProjectApp": {
+    "vocabularyUser": {
+      "home": {
+        "title": "Vocabulary Users",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Vocabulary User",
+        "createOrEditLabel": "Create or edit a Vocabulary User",
+        "notFound": "No Vocabulary Users found"
+      },
+      "created": "A new Vocabulary User is created with identifier {{ param }}",
+      "updated": "A Vocabulary User is updated with identifier {{ param }}",
+      "deleted": "A Vocabulary User is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Vocabulary User {{ id }}?"
+      },
+      "detail": {
+        "title": "Vocabulary User"
+      },
+      "id": "ID",
+      "userId": "User Id",
+      "score": "Score",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "detailsVocabularyUser": "Details Vocabulary User",
+      "vocabularyTopic": "Vocabulary Topic"
+    }
+  }
+}

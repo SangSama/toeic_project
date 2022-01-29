@@ -1,0 +1,30 @@
+{
+  "finalProjectApp": {
+    "detailsToeicUser": {
+      "home": {
+        "title": "Details Toeic Users",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Details Toeic User",
+        "createOrEditLabel": "Create or edit a Details Toeic User",
+        "notFound": "No Details Toeic Users found"
+      },
+      "created": "A new Details Toeic User is created with identifier {{ param }}",
+      "updated": "A Details Toeic User is updated with identifier {{ param }}",
+      "deleted": "A Details Toeic User is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Details Toeic User {{ id }}?"
+      },
+      "detail": {
+        "title": "Details Toeic User"
+      },
+      "id": "ID",
+      "toeicId": "Toeic Id",
+      "partId": "Part Id",
+      "questionId": "Question Id",
+      "status": "Status",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "toeicUser": "Toeic User"
+    }
+  }
+}

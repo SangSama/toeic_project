@@ -1,0 +1,27 @@
+{
+  "finalProjectApp": {
+    "extendQuestion": {
+      "home": {
+        "title": "Extend Questions",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Thêm mới một Extend Question",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Extend Question",
+        "notFound": "No Extend Questions found"
+      },
+      "created": "Một Extend Question mới được tạo với định danh {{ param }}",
+      "updated": "Một Extend Question cập nhật với định danh {{ param }}",
+      "deleted": "Một Extend Question đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Extend Question {{ id }}?"
+      },
+      "detail": {
+        "title": "Extend Question"
+      },
+      "id": "ID",
+      "paragraph": "Paragraph",
+      "image": "Image",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At"
+    }
+  }
+}

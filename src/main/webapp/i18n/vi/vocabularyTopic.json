@@ -1,0 +1,32 @@
+{
+  "finalProjectApp": {
+    "vocabularyTopic": {
+      "home": {
+        "title": "Vocabulary Topics",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Thêm mới một Vocabulary Topic",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Vocabulary Topic",
+        "notFound": "No Vocabulary Topics found"
+      },
+      "created": "Một Vocabulary Topic mới được tạo với định danh {{ param }}",
+      "updated": "Một Vocabulary Topic cập nhật với định danh {{ param }}",
+      "deleted": "Một Vocabulary Topic đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Vocabulary Topic {{ id }}?"
+      },
+      "detail": {
+        "title": "Vocabulary Topic"
+      },
+      "id": "ID",
+      "nameTopic": "Name Topic",
+      "description": "Description",
+      "view": "View",
+      "test": "Test",
+      "level": "Level",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "vocabularyUser": "Vocabulary User",
+      "vocabulary": "Vocabulary"
+    }
+  }
+}

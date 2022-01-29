@@ -1,0 +1,56 @@
+{
+  "applications": "*",
+  "changelogDate": "20220129091505",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "question_part",
+  "fields": [
+    {
+      "fieldName": "question",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "correct",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "createdAt",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "updatedAt",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "QuestionPart",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "answerQuestion",
+      "otherEntityRelationshipName": "questionPart",
+      "ownerSide": true,
+      "relationshipName": "answerQuestion",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "parts",
+      "otherEntityRelationshipName": "questionPart",
+      "relationshipName": "parts",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "extendQuestion",
+      "otherEntityRelationshipName": "questionPart",
+      "relationshipName": "extendQuestion",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

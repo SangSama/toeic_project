@@ -1,0 +1,33 @@
+{
+  "finalProjectApp": {
+    "toeics": {
+      "home": {
+        "title": "Toeics",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Thêm mới một Toeics",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Toeics",
+        "notFound": "No Toeics found"
+      },
+      "created": "Một Toeics mới được tạo với định danh {{ param }}",
+      "updated": "Một Toeics cập nhật với định danh {{ param }}",
+      "deleted": "Một Toeics đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Toeics {{ id }}?"
+      },
+      "detail": {
+        "title": "Toeics"
+      },
+      "id": "ID",
+      "nameToeic": "Name Toeic",
+      "number": "Number",
+      "description": "Description",
+      "view": "View",
+      "test": "Test",
+      "linkDetail": "Link Detail",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "toeicUser": "Toeic User",
+      "parts": "Parts"
+    }
+  }
+}

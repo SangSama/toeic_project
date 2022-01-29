@@ -1,0 +1,28 @@
+{
+  "finalProjectApp": {
+    "vocabulary": {
+      "home": {
+        "title": "Vocabularies",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Vocabulary",
+        "createOrEditLabel": "Create or edit a Vocabulary",
+        "notFound": "No Vocabularies found"
+      },
+      "created": "A new Vocabulary is created with identifier {{ param }}",
+      "updated": "A Vocabulary is updated with identifier {{ param }}",
+      "deleted": "A Vocabulary is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Vocabulary {{ id }}?"
+      },
+      "detail": {
+        "title": "Vocabulary"
+      },
+      "id": "ID",
+      "word": "Word",
+      "mean": "Mean",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "vocabularyTopic": "Vocabulary Topic"
+    }
+  }
+}

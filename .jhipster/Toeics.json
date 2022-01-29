@@ -1,0 +1,68 @@
+{
+  "applications": "*",
+  "changelogDate": "20220129091512",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "toeics",
+  "fields": [
+    {
+      "fieldName": "nameToeic",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "unique", "maxlength"],
+      "fieldValidateRulesMaxlength": "50"
+    },
+    {
+      "fieldName": "number",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "view",
+      "fieldType": "Long",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "test",
+      "fieldType": "Long",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "linkDetail",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdAt",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "updatedAt",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Toeics",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "toeicUser",
+      "otherEntityRelationshipName": "toeics",
+      "relationshipName": "toeicUser",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "parts",
+      "otherEntityRelationshipName": "toeics",
+      "relationshipName": "parts",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "serviceImpl"
+}

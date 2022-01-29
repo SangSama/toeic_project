@@ -1,0 +1,31 @@
+{
+  "finalProjectApp": {
+    "toeicUser": {
+      "home": {
+        "title": "Toeic Users",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Toeic User",
+        "createOrEditLabel": "Create or edit a Toeic User",
+        "notFound": "No Toeic Users found"
+      },
+      "created": "A new Toeic User is created with identifier {{ param }}",
+      "updated": "A Toeic User is updated with identifier {{ param }}",
+      "deleted": "A Toeic User is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Toeic User {{ id }}?"
+      },
+      "detail": {
+        "title": "Toeic User"
+      },
+      "id": "ID",
+      "userId": "User Id",
+      "score": "Score",
+      "reading": "Reading",
+      "listening": "Listening",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "detailsToeicUser": "Details Toeic User",
+      "toeics": "Toeics"
+    }
+  }
+}

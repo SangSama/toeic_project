@@ -1,0 +1,29 @@
+{
+  "finalProjectApp": {
+    "answerQuestion": {
+      "home": {
+        "title": "Answer Questions",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Thêm mới một Answer Question",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Answer Question",
+        "notFound": "No Answer Questions found"
+      },
+      "created": "Một Answer Question mới được tạo với định danh {{ param }}",
+      "updated": "Một Answer Question cập nhật với định danh {{ param }}",
+      "deleted": "Một Answer Question đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Answer Question {{ id }}?"
+      },
+      "detail": {
+        "title": "Answer Question"
+      },
+      "id": "ID",
+      "answerA": "Answer A",
+      "answerB": "Answer B",
+      "answerC": "Answer C",
+      "answerD": "Answer D",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At"
+    }
+  }
+}
