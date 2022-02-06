@@ -1,6 +1,6 @@
 <template>
-  <div id="userVocabulary">
-    <div class="content container">
+  <div id="userVocabulary" class="container">
+    <div class="content">
       <h1 class="display-4" v-text="$t('finalProjectApp.userVocabularyList.home.title')">VOCABULARY</h1>
       <p class="lead" v-text="$t('finalProjectApp.userVocabularyList.home.subtitle.sub01')">Vocabulary is the foundation for development skills.</p>
       <p class="lead" v-text="$t('finalProjectApp.userVocabularyList.home.subtitle.sub02')">Rich, abundant capital will support you a lot in developing and
