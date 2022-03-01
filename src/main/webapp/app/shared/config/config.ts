@@ -58,7 +58,7 @@ import { accountStore } from '@/shared/config/store/account-store';
 import { translationStore } from '@/shared/config/store/translation-store';
 
 const dateTimeFormats: DateTimeFormats = {
-  vi: {
+  en: {
     short: {
       year: 'numeric',
       month: 'short',
@@ -83,7 +83,7 @@ const dateTimeFormats: DateTimeFormats = {
       minute: 'numeric',
     },
   },
-  en: {
+  vi: {
     short: {
       year: 'numeric',
       month: 'short',

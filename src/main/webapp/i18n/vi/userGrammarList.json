@@ -1,0 +1,39 @@
+{
+  "finalProjectApp": {
+    "userGrammarList": {
+      "home": {
+        "title": "GRAMMAR",
+        "notFound": "No Grammars found",
+        "subtitle": {
+          "sub01": "Ngữ pháp tiếng Anh có thực sự cần thiết?",
+          "sub02": "Học ngữ pháp giúp “nói đúng” tiếng Anh. Ngữ pháp giúp bạn truyền đạt ý tưởng chính xác. Ngữ pháp giúp nâng cao kỹ năng giao tiếp.",
+          "sub03": "Viết đúng ngữ pháp có lợi trong xin việc làm. Viết và nói đúng ngữ pháp sẽ nâng giá trị thương hiệu cá nhân. Ngữ pháp tiếng Anh làm tăng kỹ năng sử dụng tiếng mẹ đẻ",
+          "sub04": "Nếu muốn hiểu được ý nghĩa câu nói được truyền đạt từ người khác, hoặc muốn phát triển kỹ năng diễn đạt ý tưởng thì chúng ta cần phải học càng nhiều ngữ pháp tiếng Anh càng tốt. Ngữ pháp tiếng Anh thực sự cần thiết cho bất kỳ ai muốn giao tiếp tiếng Anh hiệu quả."
+        }
+      },
+      "notice": {
+        "title": "Mục này vẫn còn trong quá trình cập nhật! Cảm ơn ^^"
+      },
+      "grammar": {
+        "title": "Ngữ Pháp",
+        "topicList": "Danh sách chủ đề Ngữ pháp",
+        "topic01": {
+          "title": "THÌ HIỆN TẠI ĐƠN VÀ HIỆN TẠI TIẾP DIỄN",
+          "text": "Các chủ điểm ngữ pháp cần biết trong bài thi TOEIC"
+        },
+        "topic02": {
+          "title": "THÌ HIỆN TẠI HOÀN THÀNH VÀ THÌ HIỆN TẠI HOÀN THÀNH TIẾP DIỄN",
+          "text": "Các chủ điểm ngữ pháp cần biết trong bài thi TOEIC"
+        },
+        "topic03": {
+          "title": "DANH TỪ",
+          "text": "Các chủ điểm ngữ pháp cần biết trong bài thi TOEIC"
+        },
+        "topic04": {
+          "title": "TÍNH TỪ VÀ TRẠNG TỪ",
+          "text": "Các chủ điểm ngữ pháp cần biết trong bài thi TOEIC"
+        }
+      }
+    }
+  }
+}

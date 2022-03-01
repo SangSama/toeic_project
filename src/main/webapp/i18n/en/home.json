@@ -1,6 +1,6 @@
 {
   "home": {
-    "title": "Welcome, Java Hipster!",
+    "title": "Welcome, TOEICsv!",
     "subtitle": "This is your homepage",
     "logged": {
       "message": "You are logged in as user \"{{username}}\"."
@@ -14,6 +14,47 @@
       "follow": "follow @jhipster on Twitter"
     },
     "like": "If you like JHipster, don't forget to give us a star on",
-    "github": "GitHub"
+    "github": "GitHub",
+    "join": "JOIN",
+    "contactus": {
+      "text": "Contact us if you have any questions or want to contribute to the development of the website."
+    },
+    "test": {
+      "vocabulary": "VOCABULARY",
+      "voca01": "It is important for typical language learning.",
+      "voca02": "Vocabulary is the focus of language.",
+      "voca03": "Vocabulary is the core of English when communicating.",
+      "voca04": "Vocabulary is the foundation for development skills.",
+      "grammar": "GRAMMAR",
+      "gram01": "It can be said that grammar is a very important part with competitions of writing competitions or exams on the school.",
+      "gram02": "However, for communication, grammar is not an important issue.",
+      "gram03": "The important English grammar does not depend on the purpose of the learners.",
+      "toeic": "TOEIC",
+      "toeic01": "It is an English test designed to assess the ability to use English in daily situations.",
+      "toeic02": "Learning TOEIC is a student's \"passport ticket\".",
+      "toeic03": "TOEIC is a measure of large companies and corporations.",
+      "toeic04": "TOEIC helps you more confident, Western cultural exchange.",
+      "title": "Our three key points"
+    },
+    "about": {
+      "title": "About us",
+      "home": "Home",
+      "aboutus": "About",
+      "text": "The results of learners in the focus of English practice you will receive.",
+      "text01": "Vocabulary from basic to advanced communication and in TOEIC exam preparation.",
+      "text02": "Full grammar topics for demand from zero to international certification exam.",
+      "text03": "Test with the TOEIC exam quickly, compact, easy and sword in time as well as cost.",
+      "text04": "Know how to learn and practice English.",
+      "team": "Our Team"
+    },
+    "contact": {
+      "title": "Contact us",
+      "contactus": "Contact",
+      "content": "Get in Touch"
+    },
+    "qna": {
+      "title": "Question and Answer",
+      "qna": "Q&A"
+    }
   }
 }

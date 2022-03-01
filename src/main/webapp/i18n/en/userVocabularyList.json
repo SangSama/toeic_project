@@ -13,6 +13,26 @@
       },
       "notice": {
         "title": "It is still in the update process! Thanks"
+      },
+      "vocabulary": {
+        "title": "Vocabulary",
+        "topicList": "Vocabulary Topic List",
+        "topic01": {
+          "title": "600 WORDS TOEIC",
+          "text": "Some topics in 600 basic TOEIC vocabulary. The common vocabulary will appear in the TOEIC exam."
+        },
+        "topic02": {
+          "title": "500 WORDS POPULAR",
+          "text": "Some topics in 500 basic TOEIC vocabulary. The common vocabulary will appear in the TOEIC exam."
+        },
+        "topic03": {
+          "title": "1500 WORDS TOEIC",
+          "text": "Some topics in 1500 basic TOEIC vocabulary. The common vocabulary will appear in the TOEIC exam."
+        },
+        "topic04": {
+          "title": "3500 WORDS TOEIC",
+          "text": "Some topics in 3500 basic TOEIC vocabulary. The common vocabulary will appear in the TOEIC exam."
+        }
       }
     }
   }

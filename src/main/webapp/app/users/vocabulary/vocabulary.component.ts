@@ -1,7 +1,11 @@
 import { Component, Vue } from 'vue-property-decorator';
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+
+Vue.use(ElementUI);
 
 @Component
-export default class Home extends Vue {
+export default class Vocabulary extends Vue {
   public get authenticated(): boolean {
     return this.$store.getters.authenticated;
   }

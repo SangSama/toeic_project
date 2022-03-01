@@ -1,0 +1,39 @@
+{
+  "finalProjectApp": {
+    "userGrammarList": {
+      "home": {
+        "title": "GRAMMAR",
+        "notFound": "No Grammars found",
+        "subtitle": {
+          "sub01": "Is English grammar really necessary?",
+          "sub02": "Learn grammar helps \"right\" English. Grammar helps you convey the exact idea. Grammar helps improve communication skills.",
+          "sub03": "Writing the right grammar in job application. Writing and accompanying grammar will increase the value of personal brands. English grammar increases the skills of using mother tongue.",
+          "sub04": "If you want to understand the meaning of the sentence is conveyed from others, or want to develop the idea of expressing the idea, we need to learn as many English grammar as possible. English grammar is really necessary for anyone who wants to effectively communicate English."
+        }
+      },
+      "notice": {
+        "title": "It is still in the update process! Thanks"
+      },
+      "grammar": {
+        "title": "Grammar",
+        "topicList": "Grammar Topic List",
+        "topic01": {
+          "title": "Simple Present & Present Continuous",
+          "text": "Grammar owners need to know in the TOEIC test"
+        },
+        "topic02": {
+          "title": "Present Perfect & Present Perfect Continuous",
+          "text": "Grammar owners need to know in the TOEIC test"
+        },
+        "topic03": {
+          "title": "Nouns",
+          "text": "Grammar owners need to know in the TOEIC test"
+        },
+        "topic04": {
+          "title": "Adjectives & Adverbs",
+          "text": "Grammar owners need to know in the TOEIC test"
+        }
+      }
+    }
+  }
+}

@@ -23,7 +23,7 @@ const axiosStub = {
 describe('Register Component', () => {
   let wrapper: Wrapper<RegisterClass>;
   let register: RegisterClass;
-  const filledRegisterAccount = { email: 'jhi@pster.net', langKey: 'vi', login: 'jhi', password: 'jhipster' };
+  const filledRegisterAccount = { email: 'jhi@pster.net', langKey: 'en', login: 'jhi', password: 'jhipster' };
 
   beforeEach(() => {
     axiosStub.get.resolves({});
@@ -69,7 +69,7 @@ describe('Register Component', () => {
     await register.$nextTick();
 
     expect(
-      axiosStub.post.calledWith('api/register', { email: 'jhi@pster.net', langKey: 'vi', login: 'jhi', password: 'jhipster' })
+      axiosStub.post.calledWith('api/register', { email: 'jhi@pster.net', langKey: 'en', login: 'jhi', password: 'jhipster' })
     ).toBeTruthy();
     expect(register.success).toBe(true);
     expect(register.error).toBe(null);
@@ -86,7 +86,7 @@ describe('Register Component', () => {
     await register.$nextTick();
 
     expect(
-      axiosStub.post.calledWith('api/register', { email: 'jhi@pster.net', langKey: 'vi', login: 'jhi', password: 'jhipster' })
+      axiosStub.post.calledWith('api/register', { email: 'jhi@pster.net', langKey: 'en', login: 'jhi', password: 'jhipster' })
     ).toBeTruthy();
     await register.$nextTick();
     expect(register.success).toBe(null);
@@ -104,7 +104,7 @@ describe('Register Component', () => {
     await register.$nextTick();
 
     expect(
-      axiosStub.post.calledWith('api/register', { email: 'jhi@pster.net', langKey: 'vi', login: 'jhi', password: 'jhipster' })
+      axiosStub.post.calledWith('api/register', { email: 'jhi@pster.net', langKey: 'en', login: 'jhi', password: 'jhipster' })
     ).toBeTruthy();
     await register.$nextTick();
     expect(register.success).toBe(null);
@@ -122,7 +122,7 @@ describe('Register Component', () => {
     await register.$nextTick();
 
     expect(
-      axiosStub.post.calledWith('api/register', { email: 'jhi@pster.net', langKey: 'vi', login: 'jhi', password: 'jhipster' })
+      axiosStub.post.calledWith('api/register', { email: 'jhi@pster.net', langKey: 'en', login: 'jhi', password: 'jhipster' })
     ).toBeTruthy();
     await register.$nextTick();
     expect(register.success).toBe(null);

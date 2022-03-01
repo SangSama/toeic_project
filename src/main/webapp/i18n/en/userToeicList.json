@@ -1,0 +1,40 @@
+{
+  "finalProjectApp": {
+    "userToeicList": {
+      "home": {
+        "title": "TOEIC",
+        "notFound": "No Grammars found",
+        "subtitle": {
+          "sub01": "What is TOEIC? Why learn to learn and test TOEIC?",
+          "sub02": "TOEIC (short for Test of English for International Communication - International Communication English Test) is a test to assess English use level for English users as a foreign language (not Mother tongue), especially those who want to use English in communication and international work environments. The results of the TOEIC test reflect the level of proficiency when communicating in English in activities such as business, trade, tourism ... This result is valid for 2 years and recognized in many countries including Vietnam.",
+          "sub03": "What is TOEIC ETS? Things to know about the TOEIC test",
+          "sub04": "ETS: Abbreviation Educational Testing Service is a non-profit education organization that works for progress and equity education through the research and compilation of inspection and hitting programs Large-scale language prices, including tests widely accepted worldwide like TOEFL, TOEIC, GRE, SAT. Therefore, the TOEIC ETS Booklet released certainly quality documents to help you get the best TOEIC test results!"
+        }
+      },
+      "notice": {
+        "title": "It is still in the update process! Thanks"
+      },
+      "toeic": {
+        "title": "TOEIC",
+        "topicList": "TOEIC Exam List",
+        "start": "START",
+        "topic01": {
+          "title": "ETS_2021_Test_01",
+          "text": "ETS 2021"
+        },
+        "topic02": {
+          "title": "ETS_2021_Test_02",
+          "text": "ETS 2021"
+        },
+        "topic03": {
+          "title": "ETS_2022_Test_01",
+          "text": "ETS 2022"
+        },
+        "topic04": {
+          "title": "ETS_2022_Test_02",
+          "text": "ETS 2022"
+        }
+      }
+    }
+  }
+}

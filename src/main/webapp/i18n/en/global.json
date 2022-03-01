@@ -10,7 +10,7 @@
       "toeic": "Toeic",
       "qna": "Q&A",
       "contact": "Contact",
-      "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
+      "jhipster-needle-menu-add-element": "TOEICsv will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Entities",
         "answerQuestion": "Answer Question",
@@ -30,7 +30,7 @@
         "detailsToeicUser": "Details Toeic User",
         "grammarAnswer": "Grammar Answer",
         "toeics": "Toeics",
-        "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
+        "jhipster-needle-menu-add-entry": "TOEICsv will add additional entities here (do not translate!)"
       },
       "account": {
         "main": "Account",
@@ -51,7 +51,7 @@
         "logs": "Logs",
         "apidocs": "API",
         "database": "Database",
-        "jhipster-needle-menu-add-admin-element": "JHipster will add additional menu entries here (do not translate!)"
+        "jhipster-needle-menu-add-admin-element": "TOEICsv will add additional menu entries here (do not translate!)"
       },
       "language": "Language"
     },
@@ -160,5 +160,5 @@
       "not.image": "File was expected to be an image but was found to be \"{{ fileType }}\""
     }
   },
-  "footer": "This is your footer"
+  "footer": "--- HUST - SET - BME - Trương Thị Sáng - 20172785 - Kỳ 2021.1 ---"
 }

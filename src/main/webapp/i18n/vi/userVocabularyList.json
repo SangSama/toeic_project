@@ -13,6 +13,26 @@
       },
       "notice": {
         "title": "Mục này vẫn còn trong quá trình cập nhật! Cảm ơn ^^"
+      },
+      "vocabulary": {
+        "title": "Từ Vựng",
+        "topicList": "Danh sách chủ đề Từ vựng",
+        "topic01": {
+          "title": "600 TỪ VỰNG TOEIC",
+          "text": "Một số chủ đề trong 600 từ vựng TOEIC cơ bản. Từ vựng chung sẽ xuất hiện trong kỳ thi TOEIC."
+        },
+        "topic02": {
+          "title": "500 TỪ VỰNG PHỔ BIẾN",
+          "text": "Một số chủ đề trong 500 từ vựng TOEIC phổ biến. Từ vựng chung sẽ xuất hiện trong kỳ thi TOEIC."
+        },
+        "topic03": {
+          "title": "1500 TỪ VỰNG",
+          "text": "Một số chủ đề trong 1500 từ vựng TOEIC cơ bản. Từ vựng chung sẽ xuất hiện trong kỳ thi TOEIC."
+        },
+        "topic04": {
+          "title": "3500 TỪ VỰNG",
+          "text": "Một số chủ đề trong 3500 từ vựng TOEIC cơ bản. Từ vựng chung sẽ xuất hiện trong kỳ thi TOEIC."
+        }
       }
     }
   }

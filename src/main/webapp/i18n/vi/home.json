@@ -1,19 +1,60 @@
 {
   "home": {
-    "title": "Chào mừng bạn đến với Java Hipster!",
+    "title": "Chào mừng bạn đến với TOEICsv!",
     "subtitle": "Đây là trang chủ của bạn",
     "logged": {
       "message": "Bạn đang đăng nhập bằng tài khoản \"{{username}}\"."
     },
-    "question": "Nếu bạn có bất kỳ câu hỏi nào về JHipster vui lòng truy cập:",
+    "question": "Nếu bạn có bất kỳ câu hỏi nào về TOEICsv vui lòng truy cập:",
     "link": {
-      "homepage": "Trang chủ JHipster",
+      "homepage": "Trang chủ TOEICsv",
       "stackoverflow": "JHipster trên Stack Overflow",
       "bugtracker": "Theo dõi các lỗi JHipster",
       "chat": "Phòng chat công cộng JHipster",
       "follow": "Theo dõi @jhipster trên Twitter"
     },
     "like": "Nếu bạn thích JHipster, đừng quên cho chúng tôi thêm một ngôi sao trên",
-    "github": "GitHub"
+    "github": "GitHub",
+    "join": "THAM GIA",
+    "contactus": {
+      "text": "Liên hệ với chúng tôi nếu bạn có bất kỳ câu hỏi hoặc muốn đóng góp cho sự phát triển của trang web."
+    },
+    "test": {
+      "vocabulary": "TỪ VỰNG",
+      "voca01": "Có tầm quan trọng đối với việc học ngôn ngữ điển hình.",
+      "voca02": "Từ vựng là trọng tâm của ngôn ngữ.",
+      "voca03": "Từ vựng là cốt lõi của tiếng Anh khi giao tiếp.",
+      "voca04": "Từ vựng là nền tảng cho các kỹ năng phát triển.",
+      "grammar": "NGỮ PHÁP",
+      "gram01": "Có thể nói ngữ pháp là một phần rất quan trọng với việc thi các cuộc thi viết hay thi trên trường.",
+      "gram02": "Tuy nhiên đối với trong giao tiếp thì ngữ pháp lại không phải là một vấn đề quá quan trọng.",
+      "gram03": "Việc ngữ pháp tiếng Anh có quan trọng không cũng tùy vào mục đích của người học.",
+      "toeic": "TOEIC",
+      "toeic01": "Là bài kiểm tra tiếng Anh được thiết kế nhằm đánh giá khả năng sử dụng tiếng Anh trong các tình huống thường ngày.",
+      "toeic02": "Học toeic là “tấm vé thông hành” của sinh viên.",
+      "toeic03": "Toeic là thước đo của những công ty, tập đoàn lớn.",
+      "toeic04": "Toeic giúp bạn tự tin hơn, giao lưu văn hóa phương Tây.",
+      "title": "Ba trọng điểm của chúng tôi"
+    },
+    "about": {
+      "title": "Giới thiệu về TOEICsv",
+      "home": "Trang chủ",
+      "aboutus": "Giới thiệu",
+      "text": "Kết quả của người học trong các trọng tâm luyện tập Tiếng Anh bạn sẽ nhận.",
+      "text01": "Vốn từ vựng từ cơ bản đến nâng cao trong giao tiếp và trong luyện thi TOEIC tăng.",
+      "text02": "Các chuyên đề ngữ pháp đầy đủ cho nhu cầu từ số 0 đến thi chứng chỉ Quốc tế.",
+      "text03": "Thử sức với đề thi TOEIC một cách nhanh, gọn, dễ dàng và tiết kiếm thời gian cũng như chi phí.",
+      "text04": "Biết cách tự học, tự luyện Tiếng Anh.",
+      "team": "Nhóm thành viên"
+    },
+    "contact": {
+      "title": "Liên hệ với TOEICsv",
+      "contactus": "Liên hệ",
+      "content": "Liên lạc"
+    },
+    "qna": {
+      "title": "Giải đáp thắc mắc TOEICsv",
+      "qna": "Giải đáp"
+    }
   }
 }

@@ -14,7 +14,7 @@ export default class TranslationService {
 
   public refreshTranslation(newLanguage: string) {
     let currentLanguage = this.store.getters.currentLanguage;
-    currentLanguage = newLanguage ? newLanguage : 'vi';
+    currentLanguage = newLanguage ? newLanguage : 'en'; //vi
     if (this.i18n && !this.i18n.messages[currentLanguage]) {
       this.i18n.setLocaleMessage(currentLanguage, {});
       axios.get(`i18n/${currentLanguage}.json?_=${I18N_HASH}`).then((res: any) => {

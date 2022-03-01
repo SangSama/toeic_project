@@ -2,6 +2,12 @@
 // (runtime-only or standalone) has been set in webpack.common with an alias.
 import Vue from 'vue';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+
+// import
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+import FlipCountdown from 'vue2-flip-countdown';
+
 import App from './app.vue';
 import Vue2Filters from 'vue2-filters';
 import { ToastPlugin } from 'bootstrap-vue';
@@ -30,6 +36,10 @@ import TranslationService from '@/locale/translation.service';
 // jhipster-needle-add-entity-service-to-main-import - JHipster will import entities services here
 
 /* tslint:enable */
+
+// import
+Vue.use(ElementUI);
+
 Vue.config.productionTip = false;
 config.initVueApp(Vue);
 config.initFortAwesome(Vue);

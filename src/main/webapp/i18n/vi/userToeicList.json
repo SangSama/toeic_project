@@ -1,0 +1,40 @@
+{
+  "finalProjectApp": {
+    "userToeicList": {
+      "home": {
+        "title": "TOEIC",
+        "notFound": "No Grammars found",
+        "subtitle": {
+          "sub01": "TOEIC là gì? Tại sao lại phải học và thi TOEIC?",
+          "sub02": "TOEIC (viết tắt của Test of English for International Communication – Bài kiểm tra tiếng Anh giao tiếp quốc tế) là một bài thi nhằm đánh giá trình độ sử dụng tiếng Anh dành cho những người sử dụng tiếng Anh như một ngoại ngữ (không phải tiếng mẹ đẻ), đặc biệt là những đối tượng muốn sử dụng tiếng Anh trong môi trường giao tiếp và làm việc quốc tế. Kết quả của bài thi TOEIC phản ánh mức độ thành thạo khi giao tiếp bằng tiếng Anh trong các hoạt động như kinh doanh, thương mại, du lịch… Kết quả này có hiệu lực trong vòng 02 năm và được công nhận tại nhiều quốc gia trong đó có Việt Nam.",
+          "sub03": "ETS TOEIC là gì? Những điều cần biết về bài thi Toeic?",
+          "sub04": "ETS: viết tắt Educational Testing Service (Viện Khảo thí giáo dục Hoa Kỳ) là tổ chức giáo dục phi lợi nhuận hoạt động vì sự tiến bộ và công bằng giáo dục thông qua việc nghiên cứu và biên soạn các chương trình kiểm tra, đánh giá ngôn ngữ với quy mô lớn, trong đó có các bài thi được chấp nhận rộng rãi trên toàn thế giới như TOEFL, TOEIC, GRE, SAT. Chính vì vậy, bộ sách ETS TOEIC phát hành chắc chắn là những tài liệu chất lượng để giúp bạn có kết quả bài thi TOEIC tốt nhất!"
+        }
+      },
+      "notice": {
+        "title": "It is still in the update process! Thanks"
+      },
+      "toeic": {
+        "title": "TOEIC",
+        "topicList": "TOEIC Exam List",
+        "start": "BẮT ĐẦU",
+        "topic01": {
+          "title": "ETS_2021_Test_01",
+          "text": "ETS 2021"
+        },
+        "topic02": {
+          "title": "ETS_2021_Test_02",
+          "text": "ETS 2021"
+        },
+        "topic03": {
+          "title": "ETS_2022_Test_01",
+          "text": "ETS 2022"
+        },
+        "topic04": {
+          "title": "ETS_2022_Test_02",
+          "text": "ETS 2022"
+        }
+      }
+    }
+  }
+}
