@@ -33,7 +33,9 @@ spring:
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
     url: jdbc:mysql://localhost:3306/toeic_test?allowPublicKeyRetrieval=true&useUnicode=true&characterEncoding=utf8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC&createDatabaseIfNotExist=true
+#    url: jdbc:mysql://10.61.152.234:3306/toeic_test?useUnicode=yes&characterEncoding=UTF-8
     username: root
+#    username: toeic_test
     password: Sang.tt172785
     hikari:
       poolName: Hikari

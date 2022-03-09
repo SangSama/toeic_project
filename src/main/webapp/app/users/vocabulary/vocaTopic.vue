@@ -52,42 +52,42 @@
           </el-col>
           <el-col :span="12">
             <div class="grid-content bg-purple">
-              <p><strong>Abide by</strong>(v) tuân thủ, tuân theo</p>
+              <p><strong>Determine</strong>(v) Giải quyết vấn đề</p>
             </div>
           </el-col>
           <el-col :span="12">
             <div class="grid-content bg-purple">
-              <p><strong>Agreement</strong>(n) Sự thỏa thuận</p>
+              <p><strong>Engage</strong>(v) Thuê, mướn</p>
             </div>
           </el-col>
           <el-col :span="12">
             <div class="grid-content bg-purple">
-              <p><strong>Assurance</strong>(n) Bảo đảm, chắc chắn</p>
+              <p><strong>Establish</strong>(v) Thành lập</p>
             </div>
           </el-col>
           <el-col :span="12">
             <div class="grid-content bg-purple">
-              <p><strong>Cancellation</strong>(n) sự hủy bỏ</p>
+              <p><strong>Obligate</strong>(v) bắt buộc, ép buộc</p>
             </div>
           </el-col>
           <el-col :span="12">
             <div class="grid-content bg-purple">
-              <p><strong>Abide by</strong>(v) tuân thủ, tuân theo</p>
+              <p><strong>Party</strong>(n) Nhóm làm việc chung</p>
             </div>
           </el-col>
           <el-col :span="12">
             <div class="grid-content bg-purple">
-              <p><strong>Agreement</strong>(n) Sự thỏa thuận</p>
+              <p><strong>Provision</strong>(n) Sự cung cấp</p>
             </div>
           </el-col>
           <el-col :span="12">
             <div class="grid-content bg-purple">
-              <p><strong>Assurance</strong>(n) Bảo đảm, chắc chắn</p>
+              <p><strong>Resolve</strong>(v) Kiên quyết, quyết định</p>
             </div>
           </el-col>
           <el-col :span="12">
             <div class="grid-content bg-purple">
-              <p><strong>Cancellation</strong>(n) sự hủy bỏ</p>
+              <p><strong>Specify</strong>(v) định rõ, ghi rõ</p>
             </div>
           </el-col>
         </el-row>

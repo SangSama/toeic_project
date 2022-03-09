@@ -6,7 +6,6 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 // import
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
-import FlipCountdown from 'vue2-flip-countdown';
 
 import App from './app.vue';
 import Vue2Filters from 'vue2-filters';

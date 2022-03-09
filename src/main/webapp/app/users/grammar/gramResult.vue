@@ -23,28 +23,7 @@
     </div>
 
     <!-- -->
-    <div class="container app">
-      <div class="quiz">
-        <div class="quiz-header">
-          <h1>QUIZ</h1>
-        </div>
-        <div class="quiz-main">
-          <div class="box-question">
-            <h2>Your score is</h2>
-            <p>9/20</p>
-          </div>
-          <div class="box-suggestions">
-            <el-row>
-              <el-button type="primary" plain>Restart</el-button>
-            </el-row>
-          </div>
-        </div>
-        <div class="quiz-footer">
-          <div class="box-button">
-          </div>
-        </div>
-      </div>
-    </div>
+
 
   </div>
 </template>
